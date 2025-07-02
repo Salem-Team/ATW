@@ -248,7 +248,23 @@ footer {
     flex-wrap: wrap;
     .lists {
       justify-content: space-between;
+      flex-wrap: wrap;
     }
+    .add_email {
+      flex-direction: column;
+      gap: 10px;
+      & > div,
+      & > input {
+        width: 100%;
+      }
+    }
+    .btn {
+      width: 100% !important;
+    }
+  }
+  footer .bottom .bottom_container {
+    flex-wrap: wrap;
+    gap: 10px;
   }
 }
 </style>
