@@ -265,9 +265,7 @@ export default {
 form .title,
 form p,
 form .inputs,
-form .options,
-form .submit,
-form .sign_up {
+form .options {
   opacity: 0;
   animation: fadeUp 1s ease-out forwards;
 }
@@ -283,11 +281,5 @@ form .inputs {
 }
 form .options {
   animation-delay: 1.2s;
-}
-form .submit {
-  animation-delay: 1.5s;
-}
-form .sign_up {
-  animation-delay: 1.8s;
 }
 </style>
