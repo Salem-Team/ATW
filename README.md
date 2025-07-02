@@ -1,30 +1,18 @@
-# atw
+1 - Analyzed the task requirements carefully to ensure I understood all expectations.
 
-## Project setup
-```
-npm install
-```
+2 - Divided the project into multiple components to maintain a clean code structure and reusability.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+3 - Used Vue 3 as the main framework and Tailwind CSS for styling.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+4 - Completed the full design implementation, then made sure it was fully responsive across all screen sizes.
 
-### Run your unit tests
-```
-npm run test:unit
-```
+5 - Integrated the API:
 
-### Lints and fixes files
-```
-npm run lint
-```
+Finished the login functionality using the /login endpoint and stored the user token in localStorage.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-"# ATW" 
+Fetched the dynamic data for the "Collections" section using the /tasks endpoint with authorization headers.
+
+6 - Tested the project thoroughly, both in terms of functionality and design, and finally pushed the code to GitHub.
+
+Live Demo:
+https://atw-delta.vercel.app
