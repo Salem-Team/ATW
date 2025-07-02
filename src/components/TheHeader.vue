@@ -35,7 +35,7 @@
 
         <div
           style="
-            font-family: cursive;
+            font-family: monospace;
             font-weight: 200;
             font-size: 22px;
             line-height: 100%;
@@ -185,7 +185,7 @@ header {
     display: none;
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 720px) {
   .menu.hidden {
     display: block !important;
   }

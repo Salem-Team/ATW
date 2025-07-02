@@ -193,7 +193,7 @@
 }
 //End  line
 
-@media (max-width: 550px) {
+@media (max-width: 720px) {
   .add_email {
     flex-direction: column;
     gap: 10px;

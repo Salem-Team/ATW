@@ -216,7 +216,7 @@ export default {
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 720px) {
   svg {
     display: none;
   }

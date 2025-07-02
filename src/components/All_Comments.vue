@@ -57,7 +57,7 @@
     }
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 720px) {
   .All_Comments {
     .container {
       flex-direction: column;

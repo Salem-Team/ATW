@@ -243,7 +243,7 @@ export default {
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 720px) {
   form {
     width: 90% !important;
   }

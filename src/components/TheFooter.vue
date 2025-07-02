@@ -107,8 +107,7 @@ footer {
           font-size: 28px;
           line-height: 100%;
         }
-        p {
-        }
+
         .add_email {
           display: flex;
           align-items: center;
@@ -140,6 +139,7 @@ footer {
           width: fit-content;
           padding: 5px 10px;
           border-radius: 20px;
+          text-align: center;
         }
       }
       .lists {
@@ -246,6 +246,9 @@ footer {
 @media (max-width: 1200px) {
   footer .container .top {
     flex-wrap: wrap;
+    .main_div {
+      width: 100%;
+    }
     .lists {
       justify-content: space-between;
       flex-wrap: wrap;
